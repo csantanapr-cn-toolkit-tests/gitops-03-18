@@ -12,8 +12,7 @@ spec:
     repoURL: https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git
     targetRevision: main
     helm:
-      valueFiles:
-      - values.yaml
+      valueFiles: []
   syncPolicy:
     automated:
       prune: true
