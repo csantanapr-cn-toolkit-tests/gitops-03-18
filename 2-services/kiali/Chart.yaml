@@ -1,0 +1,8 @@
+apiVersion: v2
+name: elasticsearch-operator
+description: A Helm chart for Kubernetes
+version: 1.0.0
+dependencies:
+  - name: kiali-operator
+    version: 0.4.0
+    repository: https://csantanapr.github.io/toolkit-charts
