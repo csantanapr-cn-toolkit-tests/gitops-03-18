@@ -4,12 +4,12 @@ metadata:
   name: services
 spec:
   sourceRepos:
-  - 'https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git'
+  - https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git
   destinations:
-  - namespace: 'tools'
-    server: 'https://kubernetes.default.svc'
+  - namespace: tools
+    server: https://kubernetes.default.svc
   - namespace: openshift-operators
-    server: "https://kubernetes.default.svc"
+    server: https://kubernetes.default.svc
   roles:
   # A role which provides read-only access to all applications in the project
   - name: read-only
@@ -26,7 +26,7 @@ metadata:
 spec:
   destination:
     namespace: tools
-    server: 'https://kubernetes.default.svc'
+    server: https://kubernetes.default.svc
   project: services
   source:
     path: 2-services/argocd-apps
