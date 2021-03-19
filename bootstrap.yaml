@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: default
+  name: services
 spec:
   sourceRepos:
   - https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git
