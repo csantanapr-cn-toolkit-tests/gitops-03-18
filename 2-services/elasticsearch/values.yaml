@@ -1,1 +1,4 @@
 global: {}
+elasticsearch-operator:
+  clusterType: "ocp4"
+
