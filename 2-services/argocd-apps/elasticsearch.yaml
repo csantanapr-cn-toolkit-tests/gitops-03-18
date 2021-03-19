@@ -6,7 +6,7 @@ spec:
   destination:
     namespace: tools
     server: 'https://kubernetes.default.svc'
-  project: services
+  project: default
   source:
     path: 2-services/elasticsearch
     repoURL: https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git
