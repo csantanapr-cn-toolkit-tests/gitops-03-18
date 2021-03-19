@@ -3,6 +3,6 @@ name: elasticsearch-operator
 description: A Helm chart for Kubernetes
 version: 1.0.0
 dependencies:
-  - name: elasticsearch-operator
-    version: 0.6.0
+  - name: test-elastic
+    version: 0.1.0
     repository: https://csantanapr.github.io/toolkit-charts
