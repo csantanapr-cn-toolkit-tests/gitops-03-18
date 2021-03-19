@@ -4,8 +4,8 @@ metadata:
   name: service-mesh-instance
 spec:
   destination:
-    namespace: tools
-    server: 'https://kubernetes.default.svc'
+    namespace: istio-system
+    server: https://kubernetes.default.svc
   project: services
   source:
     path: 2-services/service-mesh-instance
