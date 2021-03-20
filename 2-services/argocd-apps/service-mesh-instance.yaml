@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: services
   source:
-    path: 2-services/service-mesh-instance
+    path: 2-services/operators/service-mesh-instance
     repoURL: https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git
     targetRevision: main
   syncPolicy:

@@ -8,7 +8,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: services
   source:
-    path: 2-services/elasticsearch
+    path: 2-services/operators/elasticsearch
     repoURL: https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git
     targetRevision: main
     helm:
