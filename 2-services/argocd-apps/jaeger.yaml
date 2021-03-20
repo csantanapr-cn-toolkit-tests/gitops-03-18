@@ -11,7 +11,9 @@ spec:
     path: 2-services/operators/jaeger
     repoURL: https://github.com/csantanapr-cn-toolkit-tests/gitops-03-18.git
     targetRevision: main
-    helm: {}
+    helm:
+      valueFiles:
+      - values.yaml
   syncPolicy:
     automated:
       prune: true
